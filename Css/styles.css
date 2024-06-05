@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(211, 44, 44);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo img {
+    width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-contenido {
+    padding: 20px;
+    text-align: center;
+}
+
+.main-content h1 {
+    color: #333;
+}
+
+.main-content p {
+    color: #666;
+    font-size: 18px;
+}
+
+.featured-phones {
+    margin-top: 40px;
+}
+
+.featured-phones h2 {
+    color: #a38987;
+}
+
+.phone-list {
+    display: flex;
+    justify-content: center;
+   gap: 3%;
+    transition: transform 1.7s ease-in-out; 
+}
+
+.phone-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.phone-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.phone-item h3 {
+    color: #333;
+    font-size: 20px;
+}
+
+.phone-item p {
+    color: #333333;
+    font-size: 16px;
+}
+
+.phone-item button {
+    background-color:silver;
+    color: white;
+    border: none;
+    padding: 20px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.phone-item button:hover {
+    background-color:  #493d3c;
+}
+
+footer {
+    background-color:  #493d3c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer .contact-info p {
+    margin: 5px 0;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+}
+
+footer .social-media img {
+    width: 40px;
+    height: auto;
+}
